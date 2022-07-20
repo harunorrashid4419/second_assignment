@@ -14,7 +14,7 @@ body{
 
 .header-section{
     display: flex;
-    background-color: #161616;
+    background-color: #22a6b3;
     border-radius: 20px;
     margin-top: 50px;
     padding: 20px 60px 0px 60px;
@@ -72,7 +72,7 @@ main .matches{
     display: flex;
 }
 main .navigation {
-    background-color: #161616;
+    background-color: #576574;
     width: 21%;
     border-radius: 10px;
     height: 327px;
@@ -200,6 +200,9 @@ footer h1 {
 /* footer section end */
 
 
+/* index file end */
+
+
 
 /* blog side start */
 
@@ -262,8 +265,12 @@ footer h1 {
     padding: 10px 30px;
     background-color: #DD0000;
     border-radius: 7px;
+    transition: opacity .7s;
 }
-
+.tablet-button a:hover{
+    opacity: 70%;
+}
+/* blog side end */
 
 
 /* Responsive */
@@ -343,6 +350,12 @@ footer h1 {
         margin-top: 50px;
         text-align: center;
     }
+    .header-section .content p {
+        white-space: nowrap;
+        width: 346px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
     .header-section .content h1 {
         font-size: 35px;
         line-height: 57px;
@@ -392,4 +405,10 @@ footer h1 {
     .transfers {
         grid-template-columns: repeat(1, 1fr);
     }
+
+
+    .tablet-button {
+        display: block;
+    }
 }
+/* Responsive end */
