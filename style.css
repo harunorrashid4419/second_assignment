@@ -1,0 +1,249 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    max-width: 1600px;
+    padding: 0 50px;
+    margin: auto;
+}
+
+
+/* header section start */
+
+.header-section{
+    display: flex;
+    background-color: #161616;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding: 20px 60px 0px 60px;
+}
+.header-section .content {
+    width: 50%;
+    margin-top: 90px;
+}
+.header-section .content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin: 0;
+    line-height: 70px;
+}
+.header-section .content p {
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 489px;
+}
+.header-section .content button {
+    font-size: 20px;
+    font-weight: 400;
+    color: #FFFFFF;
+    background-color: #DD0000;
+    padding: 12px 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: opacity .6s;
+    border: none;
+}
+.header-section .content button:hover{
+    opacity: 70%;
+}
+.header-section .content button i{
+    margin-left: 15px;
+    font-size: 18px;
+}
+.header-section .img{
+    width: 50%;
+}
+.header-section .img img{
+    width: 100%;
+}
+/* header section end */
+
+
+
+/* main section start */
+main {
+    padding: 110px  0px 100px 0;
+}
+main .matches{
+    display: flex;
+}
+main .navigation {
+    background-color: #161616;
+    width: 21%;
+    border-radius: 10px;
+    height: 327px;
+}
+main .navigation ul{
+    padding-left: 0;
+    margin: 0;
+    text-align: center;
+}
+#different-color{
+    background-color: #DD0000;
+}
+#different-color a{
+    color: #ffffff;
+}
+main .navigation ul li {
+    list-style: none;
+    margin: 40px auto;
+    width: 215px;
+    background-color: #FFFFFF;
+    padding: 15px 0px;
+    border-radius: 10px;
+}
+main .navigation ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 7px;
+    color: #161616;
+}
+.match{
+    margin-left: 2%;
+    width: 77%;
+}
+.countrys {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.country{
+    text-align: center;
+    border: 1px solid #E8E8E8;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+.flag-vs-flag{
+    display: flex;
+    align-items: center;
+}
+.flag-vs-flag img{
+    width: 100%;
+}
+.country span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #161616;
+    padding: 0 15px;
+}
+.country h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #161616;
+    margin: 20px 0 15px 0;
+}
+.country p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #4D4D4D;
+    margin: 0 0 0 0;
+}
+/* main section end */
+
+
+
+/* footer section start */
+
+footer {
+    background-color: #161616;
+    text-align: center;
+    padding: 100px 0 60px 0;
+}
+footer h1 {
+    font-size: 40px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin: 0 0 0px 0;
+    border-bottom: 1px solid #ffffff17;
+    padding-bottom: 32px;
+}
+.footer-section ul{
+    margin-top: 37px;
+}
+.footer-section ul li{
+    list-style: none;
+    display: inline-block;
+}
+.footer-section ul li a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #B9B9B9;
+    padding: 0 20px;
+    text-decoration: none;
+    transition: color .6s;
+}
+.footer-section ul li a:hover{
+    color: #DD0000;
+}
+.social-icon ul{
+    margin-bottom: 0;
+}
+.social-icon ul li{
+    list-style: none;
+    display: inline-block;
+}
+.social-icon ul li a{
+    display: block;
+    padding: 10px 20px;
+    font-size: 25px;
+    color: #fff;
+    transition: opacity .6s;
+}
+.social-icon ul li a:hover{
+    opacity: 70%;
+}
+/* footer section end */
+
+
+
+/* blog side start */
+
+.transfers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.transfer{
+    border: 1px solid #E8E8E8;
+    padding-bottom: 20px;
+}
+.transfer img{
+    width: 100%;
+}
+.img-content{
+    margin-left: 20px;
+}
+.img-content h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: #161616;
+    margin: 13px 0 9px 0;
+    border: 1px solid #16161670;
+    width: 70px;
+    padding: 2px 15px;
+    border-radius: 5px;
+}
+.img-content p {
+    font-size: 18px;
+    font-weight: 600;
+    color: #161616;
+    margin: 0 0 10px 0;
+}
+.img-content span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #161616;
+    margin-left: 10px;
+}
+.img-content img {
+    width: 22px;
+    position: relative;
+    top: 5px;
+    left: 20px;
+    margin-right: 20px;
+}
