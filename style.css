@@ -252,6 +252,66 @@ footer h1 {
 
 /* Responsive */
 
+@media screen and (min-width:577px) and (max-width:992px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    main {
+        padding: 10px 0px 50px 0;
+    }
+    main .matches {
+        flex-direction: column;
+    }
+    main .navigation {
+        background-color: #fff;
+        width: 100%;
+        height: 120px;
+    }
+    main .navigation ul li {
+        display: inline-block;
+        width: 200px;
+    }
+    main .navigation .different-width {
+        width: 150px;
+        border: 1px solid #00000029;
+    }
+    .countrys {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .match {
+        margin: auto;
+        width: 100%;
+    }
+
+
+
+    footer {
+        padding: 60px 0 40px 0;
+    }
+    .footer-section ul li {
+        padding: 20px 0;
+    }
+
+
+
+
+    main .navigation ul li {
+        border: 1px solid #00000042;
+    }
+    main .navigation ul li {
+        width: 180px;
+        margin: 40px 5px;
+    }
+    main .navigation .different-width{
+        width: 150px
+    }
+    .transfers {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
 
 @media screen and (max-width:576px) {
     .header-section {
@@ -280,8 +340,13 @@ footer h1 {
         flex-direction: column;
     }
     main .navigation {
-        background-color: #000;
+        background-color: #fff;
         width: 100%;
+        height: 235px;
+    }
+    main .navigation ul li {
+        border: 1px solid #00000024;
+        margin: 20px auto;
     }
     .match {
         margin: auto;
@@ -300,5 +365,10 @@ footer h1 {
     .footer-section ul li {
         display: block;
         padding: 20px 0;
+    }
+
+
+    .transfers {
+        grid-template-columns: repeat(1, 1fr);
     }
 }
