@@ -12,12 +12,22 @@ body{
 
 /* header section start */
 
+@keyframes sliding {
+    0%{
+        ackground-color: #22a6b3;
+    }
+    100%{
+        background-color: black;
+    }
+}
 .header-section{
     display: flex;
     background-color: #22a6b3;
     border-radius: 20px;
     margin-top: 50px;
     padding: 20px 60px 0px 60px;
+    animation: sliding 2s ease-in-out .2s infinite alternate;
+    animation-play-state: running;
 }
 .header-section .content {
     width: 50%;
@@ -319,15 +329,14 @@ footer h1 {
 
 
 
-    main .navigation ul li {
-        border: 1px solid #00000042;
-    }
+
     main .navigation ul li {
         width: 180px;
         margin: 40px 5px;
+        border: 1px solid #00000042;
     }
-    main .navigation .different-width{
-        width: 150px
+    main .navigation .different-width {
+        width: 150px;
     }
     .transfers {
         grid-template-columns: repeat(2, 1fr);
